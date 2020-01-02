@@ -22,6 +22,6 @@ num_of_movies.times do |index|
   total_gross += nds[director_index][:movies][index][:worldwide_gross]
 end
 
-result["#{director_name}"] = total_gross
+result[director_name] = total_gross
   end
 end
