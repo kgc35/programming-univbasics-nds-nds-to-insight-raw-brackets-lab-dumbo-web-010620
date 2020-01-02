@@ -24,4 +24,5 @@ end
 
 result[director_name] = total_gross
   end
+  result
 end
